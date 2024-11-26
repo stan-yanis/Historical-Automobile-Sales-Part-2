@@ -8,14 +8,14 @@ import plotly.graph_objs as go
 import plotly.express as px
 
 # Loads the automobile sales data using pandas
-data = pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/historical_automobile_sales.csv')
+data = pd.read_csv('historical_automobile_sales.csv')
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
-
+server = app.server
 # Set the title of the dashboard
 app.title = "Automobile Statistics Dashboard"
-server = app.server
+
 #---------------------------------------------------------------------------------
 # Create the dropdown menu options ('Yearly Statistics', 'Recession Period Statistics')
 dropdown_options = [
