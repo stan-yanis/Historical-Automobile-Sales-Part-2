@@ -15,7 +15,7 @@ app = dash.Dash(__name__)
 
 # Set the title of the dashboard
 app.title = "Automobile Statistics Dashboard"
-
+server = app.server
 #---------------------------------------------------------------------------------
 # Create the dropdown menu options ('Yearly Statistics', 'Recession Period Statistics')
 dropdown_options = [
