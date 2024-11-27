@@ -8,7 +8,7 @@ This is a Dash-based web application that visualizes automobile sales data inter
 - **Interactive Visuals:** Includes line charts, bar charts, and pie charts for detailed analysis.
 
 ## Live App
-Click below to view the live app
+Click here to view the live app
 [https://historical-automobile-sales-part-2-11.onrender.com](https://historical-automobile-sales-part-2-11.onrender.com)
 
 ## How to Use
